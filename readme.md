@@ -1,6 +1,6 @@
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# ANxxxx - How to use Force Sensitive Resistor with 12-bit ADC
+# AN3408 - How to use Force Sensitive Resistor with 12-bit ADC
 
 This application note describes how to use the ADC on tinyAVR® 2 Family microcontrollers to measure a Force Sensitive Resistor. The ADC supports sampling in bursts where a configurable number of conversion results are accumulated into a single ADC result (sample accumulation). This feature is used in the example application to accumulate 1024 samples and perform averaging.
 
@@ -8,8 +8,8 @@ In the example application, the ADC result will be sent to an android/iOS app ov
 The ADC result will also be sent to a serial terminal and a 4x4 RGB Click board is used to illuminate different LEDs corresponding to the applied force on the force sensor on the Force Click board.
 
 ## Related Documentation
-The application note explaining the concepts used in this repository can be found at https://microchip.com/DS00003408
-
+- [AN3408 - How to use Force Sensitive Resistor with 12-bit ADC](https://microchip.com/DS00003408)
+- [ATtiny1627 device page](https://www.microchip.com/wwwproducts/en/ATTINY1627)
 
 ## Setup
 
