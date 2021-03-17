@@ -3,27 +3,27 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.studio.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.studio.project.attiny1627-force-sensitive-resistor-with-12-bit-adc",
+        "version": "1.0.1",
+        "displayName": "How to use Force Sensitive Resistor with 12-bit ADC",
+        "projectName": "attiny1627-force-sensitive-resistor-with-12-bit-adc",
+        "shortDescription": "Example demonstrating 12-bit ADC using force sensitive resistor on the Force Click. ADC results sent to an android/iOS app over Bluetooth communication using RN4870/71 Click and to a serial terminal. Per applied force, LEDs illuminated on 4x4 RGB Click",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "STUDIO",
+            "semverRange": ">= 7.0.2397"
         },
         "compiler": [
-			{
-				"name": "",
-				"semverRange": ""
-			}
-		],
+            {
+                "name": "AVR GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.4.310"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -32,37 +32,54 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATtiny1627",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Rupali Honrao",
         "subcategories": [
-            "",
             [
-               "Peripherals", ""
+                "Peripherals", "ADC"
             ],
             [
-               "Peripherals", ""
-            ]            			
+                "Peripherals", "USART"
+            ],
+            [
+                "Peripherals", "GPIO"
+            ],
+            [
+                "Peripherals", "CLKCTRL"
+            ]
         ],
         "peripherals": [
-            "",""
+            "ADC","USART","GPIO","CLKCTRL"
         ],
         "keywords": [
-            "",
-            ""			
+            "Differential ADC",
+            "12-bit ADC",
+            "Oversampling",
+            "Sample-accumulation",
+            "Free-Running",
+            "Bluetooth",
+            "RGB-Click",
+            "Force-Click",
+            "RN4870",
+            "Debugger",
+            "CDC",
+            "Virtual COM Port",
+            "Data Visualizer",
+            "Curiosity Nano"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
