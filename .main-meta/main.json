@@ -45,14 +45,17 @@
                 "Peripherals", "USART"
             ],
             [
-                "Peripherals", "GPIO"
+                "Peripherals", "PORT"
             ],
             [
                 "Peripherals", "CLKCTRL"
             ]
         ],
         "peripherals": [
-            "ADC","USART","GPIO","CLKCTRL"
+            "ADC",
+            "USART",
+            "PORT",
+            "CLKCTRL"
         ],
         "keywords": [
             "Differential ADC",
