@@ -1,4 +1,5 @@
 # Untracked files in Studio projects
+.vscode/*
 /**/.vs
 /**/*.atsuo
 /**/[Dd]ebug/*
