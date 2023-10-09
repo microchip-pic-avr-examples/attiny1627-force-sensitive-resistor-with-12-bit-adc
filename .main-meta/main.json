@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.studio.project.attiny1627-force-sensitive-resistor-with-12-bit-adc",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "How to use Force Sensitive Resistor with 12-bit ADC",
         "projectName": "attiny1627-force-sensitive-resistor-with-12-bit-adc",
         "shortDescription": "Example demonstrating 12-bit ADC using force sensitive resistor on the Force Click. ADC results sent to an android/iOS app over Bluetooth communication using RN4870/71 Click and to a serial terminal. Per applied force, LEDs illuminated on 4x4 RGB Click",
